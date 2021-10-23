@@ -1,0 +1,88 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("./image/background6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.avtlogup
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    left: 35%;
+}
+.logup 
+{
+    height: 650px;
+    width: 360px;
+    position:absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+p,h1
+{
+    color: red;
+}
+h1
+{   
+    text-align: center;
+    padding: 10px 0 10px ;
+}
+.logupp input
+{
+    width: 95%;
+    height: 20px;
+    color: red;
+    
+}
+p
+{
+    font-size: 18px;   
+}
+.logupp input[type="text"],input[type="password"],input[type="date"],input[type=email],input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    outline: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.logupp input[type=submit]
+
+    {
+        display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;    /* lam cho cai nut no hien mau */
+      padding: 12px 14px;
+      font-size: 13px;
+      background: transparent;
+      position: relative;
+      cursor: pointer;
+    }
+    .logupp input[type="submit"]:hover
+    {
+      border:1px solid #f44336;
+      background: #f44336;
+      transition:1s;
+    }
+    a:hover
+    {
+        color:red ;
+        transition: 1s;
+        font-size: 20px;
+        width: 20%;
+
+    }
